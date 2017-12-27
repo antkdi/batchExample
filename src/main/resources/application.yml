@@ -1,0 +1,6 @@
+INPUT:
+  FILE:
+    DIR: c:/resume_search_itr/dump/*.txt
+OUTPUT:
+  FILE:
+    PATH: c:\temp.txt

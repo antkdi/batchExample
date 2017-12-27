@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.saramin.lab.resumeitr.dao.PersonDao">
+
+    <select id="getPerson"  resultType="hashmap">
+        SELECT * FROM USERS
+    </select>
+
+    <insert id="insertPerson" parameterMap="com.saramin.lab.resumeitr.batch.vo.Person" >
+        INSERT INTO PERSON(first_name, last_name) values(#{firstName}, #{lastName})
+    </insert>
+
+</mapper>
