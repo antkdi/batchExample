@@ -16,6 +16,7 @@ Spring-batch 를 사용하여 배치 프로그램 작성
     - Task 작성
     - Tasklet 작성
     - Task에 대한 Linstener 작성
+    - JDBC를 이용한 Task 작성
 
 
 
