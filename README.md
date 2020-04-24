@@ -17,6 +17,7 @@ Spring-batch 를 사용하여 배치 프로그램 작성
     - Tasklet 작성
     - Task에 대한 Linstener 작성
     - JDBC를 이용한 Task 작성
+    - 여러 라인의 스트럭처로 구성된 Multiple File ItemReader 작성
 
 
 
